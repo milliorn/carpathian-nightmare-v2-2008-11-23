@@ -1,0 +1,7676 @@
+{
+  "__data_type": "GIT ",
+  "AreaProperties": {
+    "__struct_id": 100,
+    "type": "struct",
+    "value": {
+      "__struct_id": 100,
+      "AmbientSndDay": {
+        "type": "int",
+        "value": 51
+      },
+      "AmbientSndDayVol": {
+        "type": "int",
+        "value": 32
+      },
+      "AmbientSndNight": {
+        "type": "int",
+        "value": 51
+      },
+      "AmbientSndNitVol": {
+        "type": "int",
+        "value": 32
+      },
+      "EnvAudio": {
+        "type": "int",
+        "value": 89
+      },
+      "MusicBattle": {
+        "type": "int",
+        "value": 34
+      },
+      "MusicDay": {
+        "type": "int",
+        "value": 1
+      },
+      "MusicDelay": {
+        "type": "int",
+        "value": 89000
+      },
+      "MusicNight": {
+        "type": "int",
+        "value": 3
+      }
+    }
+  },
+  "Creature List": {
+    "type": "list",
+    "value": []
+  },
+  "Door List": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 8,
+        "AnimationState": {
+          "type": "byte",
+          "value": 1
+        },
+        "Appearance": {
+          "type": "dword",
+          "value": 57
+        },
+        "AutoRemoveKey": {
+          "type": "byte",
+          "value": 0
+        },
+        "Bearing": {
+          "type": "float",
+          "value": 1.5708
+        },
+        "CloseLockDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "Conversation": {
+          "type": "resref",
+          "value": ""
+        },
+        "CurrentHP": {
+          "type": "short",
+          "value": 80
+        },
+        "Description": {
+          "type": "cexolocstring",
+          "value": {}
+        },
+        "DisarmDC": {
+          "type": "byte",
+          "value": 15
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Fort": {
+          "type": "byte",
+          "value": 16
+        },
+        "GenericType_New": {
+          "type": "dword",
+          "value": 0
+        },
+        "Hardness": {
+          "type": "byte",
+          "value": 5
+        },
+        "HP": {
+          "type": "short",
+          "value": 80
+        },
+        "Interruptable": {
+          "type": "byte",
+          "value": 1
+        },
+        "KeyName": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "KeyRequired": {
+          "type": "byte",
+          "value": 0
+        },
+        "LinkedTo": {
+          "type": "cexostring",
+          "value": "CarpathianForestSouthExit"
+        },
+        "LinkedToFlags": {
+          "type": "byte",
+          "value": 1
+        },
+        "LoadScreenID": {
+          "type": "word",
+          "value": 0
+        },
+        "Lockable": {
+          "type": "byte",
+          "value": 0
+        },
+        "Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "LocName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Pripet Marshes Entance 1",
+            "id": 5349
+          }
+        },
+        "OnClick": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnClosed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnDamaged": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnDeath": {
+          "type": "resref",
+          "value": "x2_door_death"
+        },
+        "OnDisarm": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnFailToOpen": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnLock": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnMeleeAttacked": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnOpen": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnSpellCastAt": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnTrapTriggered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUnlock": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "OpenLockDC": {
+          "type": "byte",
+          "value": 18
+        },
+        "Plot": {
+          "type": "byte",
+          "value": 1
+        },
+        "PortraitId": {
+          "type": "word",
+          "value": 0
+        },
+        "Ref": {
+          "type": "byte",
+          "value": 0
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "PripetMarshesEntance1"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "nw_door_ttr_12"
+        },
+        "TrapDetectable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapDetectDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapDisarmable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapFlag": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapOneShot": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapType": {
+          "type": "byte",
+          "value": 0
+        },
+        "Will": {
+          "type": "byte",
+          "value": 0
+        },
+        "X": {
+          "type": "float",
+          "value": 5.49
+        },
+        "Y": {
+          "type": "float",
+          "value": 24.74
+        },
+        "Z": {
+          "type": "float",
+          "value": -0.44
+        }
+      },
+      {
+        "__struct_id": 8,
+        "AnimationState": {
+          "type": "byte",
+          "value": 1
+        },
+        "Appearance": {
+          "type": "dword",
+          "value": 65
+        },
+        "AutoRemoveKey": {
+          "type": "byte",
+          "value": 0
+        },
+        "Bearing": {
+          "type": "float",
+          "value": -1.5708
+        },
+        "CloseLockDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "Conversation": {
+          "type": "resref",
+          "value": ""
+        },
+        "CurrentHP": {
+          "type": "short",
+          "value": 80
+        },
+        "Description": {
+          "type": "cexolocstring",
+          "value": {}
+        },
+        "DisarmDC": {
+          "type": "byte",
+          "value": 15
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Fort": {
+          "type": "byte",
+          "value": 16
+        },
+        "GenericType_New": {
+          "type": "dword",
+          "value": 0
+        },
+        "Hardness": {
+          "type": "byte",
+          "value": 5
+        },
+        "HP": {
+          "type": "short",
+          "value": 80
+        },
+        "Interruptable": {
+          "type": "byte",
+          "value": 1
+        },
+        "KeyName": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "KeyRequired": {
+          "type": "byte",
+          "value": 0
+        },
+        "LinkedTo": {
+          "type": "cexostring",
+          "value": "PripetMarshesEntrance2"
+        },
+        "LinkedToFlags": {
+          "type": "byte",
+          "value": 1
+        },
+        "LoadScreenID": {
+          "type": "word",
+          "value": 0
+        },
+        "Lockable": {
+          "type": "byte",
+          "value": 0
+        },
+        "Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "LocName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Pripet Marshes  Exit 1",
+            "id": 5349
+          }
+        },
+        "OnClick": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnClosed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnDamaged": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnDeath": {
+          "type": "resref",
+          "value": "x2_door_death"
+        },
+        "OnDisarm": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnFailToOpen": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnLock": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnMeleeAttacked": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnOpen": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnSpellCastAt": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnTrapTriggered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUnlock": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "OpenLockDC": {
+          "type": "byte",
+          "value": 18
+        },
+        "Plot": {
+          "type": "byte",
+          "value": 1
+        },
+        "PortraitId": {
+          "type": "word",
+          "value": 0
+        },
+        "Ref": {
+          "type": "byte",
+          "value": 0
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "PripetMarshesExit1"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "nw_door_ttr_29"
+        },
+        "TrapDetectable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapDetectDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapDisarmable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapFlag": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapOneShot": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapType": {
+          "type": "byte",
+          "value": 0
+        },
+        "Will": {
+          "type": "byte",
+          "value": 0
+        },
+        "X": {
+          "type": "float",
+          "value": 157.78
+        },
+        "Y": {
+          "type": "float",
+          "value": 115.0
+        },
+        "Z": {
+          "type": "float",
+          "value": 0.0
+        }
+      }
+    ]
+  },
+  "Encounter List": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "X": {
+                "type": "float",
+                "value": -12.4729
+              },
+              "Y": {
+                "type": "float",
+                "value": -8.9032
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "X": {
+                "type": "float",
+                "value": -11.6532
+              },
+              "Y": {
+                "type": "float",
+                "value": 10.0225
+              },
+              "Z": {
+                "type": "float",
+                "value": -0.0738
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 26.9383
+              },
+              "Y": {
+                "type": "float",
+                "value": 25.8346
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 23.2817
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 24.8449
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "X": {
+                "type": "float",
+                "value": -14.9506
+              },
+              "Y": {
+                "type": "float",
+                "value": 5.8795
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "X": {
+                "type": "float",
+                "value": -11.8429
+              },
+              "Y": {
+                "type": "float",
+                "value": -17.3444
+              },
+              "Z": {
+                "type": "float",
+                "value": -3.0055
+              }
+            },
+            {
+              "__struct_id": 1,
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 47.4709
+              },
+              "Y": {
+                "type": "float",
+                "value": 24.6811
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            },
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 26.0155
+              },
+              "Y": {
+                "type": "float",
+                "value": 25.3732
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 47.1511
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 29.1987
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -15.0346
+              },
+              "Y": {
+                "type": "float",
+                "value": -3.4437
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -14.6147
+              },
+              "Y": {
+                "type": "float",
+                "value": 13.9007
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 71.9254
+              },
+              "Y": {
+                "type": "float",
+                "value": 22.8355
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            },
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 54.392
+              },
+              "Y": {
+                "type": "float",
+                "value": 25.3732
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 76.0521
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 19.875
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -14.0417
+              },
+              "Y": {
+                "type": "float",
+                "value": 13.7319
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -13.5254
+              },
+              "Y": {
+                "type": "float",
+                "value": -3.975
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 88.536
+              },
+              "Y": {
+                "type": "float",
+                "value": 23.7583
+              },
+              "Z": {
+                "type": "float",
+                "value": -0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 90.5253
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 19.5945
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -14.3514
+              },
+              "Y": {
+                "type": "float",
+                "value": 3.4588
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -13.7319
+              },
+              "Y": {
+                "type": "float",
+                "value": -14.2998
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 102.8396
+              },
+              "Y": {
+                "type": "float",
+                "value": 24.6811
+              },
+              "Z": {
+                "type": "float",
+                "value": -0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 104.9231
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 29.9708
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -17.247
+              },
+              "Y": {
+                "type": "float",
+                "value": -12.2249
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -14.0751
+              },
+              "Y": {
+                "type": "float",
+                "value": 8.3261
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 118.7581
+              },
+              "Y": {
+                "type": "float",
+                "value": 23.7583
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 119.7467
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 25.1896
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -15.0003
+              },
+              "Y": {
+                "type": "float",
+                "value": -5.0882
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -14.2073
+              },
+              "Y": {
+                "type": "float",
+                "value": 14.4055
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 137.445
+              },
+              "Y": {
+                "type": "float",
+                "value": 22.8355
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 134.7829
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 20.1014
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -19.7587
+              },
+              "Y": {
+                "type": "float",
+                "value": 5.0227
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0226
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -0.5286999999999999
+              },
+              "Y": {
+                "type": "float",
+                "value": -14.4055
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 144.8275
+              },
+              "Y": {
+                "type": "float",
+                "value": 34.6013
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 150.0155
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 29.683
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -9.1191
+              },
+              "Y": {
+                "type": "float",
+                "value": -14.2734
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 4.6256
+              },
+              "Y": {
+                "type": "float",
+                "value": -14.2073
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 141.367
+              },
+              "Y": {
+                "type": "float",
+                "value": 73.59010000000001
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 144.7951
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 69.852
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 19.692
+              },
+              "Y": {
+                "type": "float",
+                "value": -4.6917
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0226
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 20.1551
+              },
+              "Y": {
+                "type": "float",
+                "value": 4.9562
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0226
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 103.7072
+              },
+              "Y": {
+                "type": "float",
+                "value": 73.066
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.3936
+              }
+            },
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 136.523
+              },
+              "Y": {
+                "type": "float",
+                "value": 71.9756
+              },
+              "Z": {
+                "type": "float",
+                "value": -0.0024
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 107.6164
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 69.8524
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 19.3616
+              },
+              "Y": {
+                "type": "float",
+                "value": -4.4274
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 20.0885
+              },
+              "Y": {
+                "type": "float",
+                "value": 14.6038
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 112.2984
+              },
+              "Y": {
+                "type": "float",
+                "value": 67.13039999999999
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            },
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 77.9237
+              },
+              "Y": {
+                "type": "float",
+                "value": 74.0515
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 79.9442
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 69.7859
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 21.0797
+              },
+              "Y": {
+                "type": "float",
+                "value": -7.9296
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 20.1545
+              },
+              "Y": {
+                "type": "float",
+                "value": 11.3658
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 72.38679999999999
+              },
+              "Y": {
+                "type": "float",
+                "value": 75.4357
+              },
+              "Z": {
+                "type": "float",
+                "value": -0.0
+              }
+            },
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 41.0112
+              },
+              "Y": {
+                "type": "float",
+                "value": 68.7454
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 39.9754
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 73.55249999999999
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 28.8111
+              },
+              "Y": {
+                "type": "float",
+                "value": -3.8987
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 26.3661
+              },
+              "Y": {
+                "type": "float",
+                "value": 4.6917
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 14.019
+              },
+              "Y": {
+                "type": "float",
+                "value": 72.4366
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 10.2252
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 69.9842
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -9.053599999999999
+              },
+              "Y": {
+                "type": "float",
+                "value": -29.4727
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 8.5906
+              },
+              "Y": {
+                "type": "float",
+                "value": -29.6709
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.2522
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 15.1725
+              },
+              "Y": {
+                "type": "float",
+                "value": 98.3861
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            },
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 14.4804
+              },
+              "Y": {
+                "type": "float",
+                "value": 127.6854
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 15.0815
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 138.462
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -16.7183
+              },
+              "Y": {
+                "type": "float",
+                "value": 4.6256
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -14.6038
+              },
+              "Y": {
+                "type": "float",
+                "value": -14.2734
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 53.9306
+              },
+              "Y": {
+                "type": "float",
+                "value": 137.6056
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            },
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 26.0155
+              },
+              "Y": {
+                "type": "float",
+                "value": 132.2994
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 51.9482
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 138.8949
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -14.802
+              },
+              "Y": {
+                "type": "float",
+                "value": -4.8239
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -4.6917
+              },
+              "Y": {
+                "type": "float",
+                "value": 15.0003
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 62.0052
+              },
+              "Y": {
+                "type": "float",
+                "value": 133.2222
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 64.7757
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 129.8731
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -14.2734
+              },
+              "Y": {
+                "type": "float",
+                "value": -11.2337
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -13.2161
+              },
+              "Y": {
+                "type": "float",
+                "value": 11.4319
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 81.38420000000001
+              },
+              "Y": {
+                "type": "float",
+                "value": 135.76
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 79.92610000000001
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 135.0274
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -14.2734
+              },
+              "Y": {
+                "type": "float",
+                "value": 6.9385
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -11.9606
+              },
+              "Y": {
+                "type": "float",
+                "value": -15.0003
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 81.61490000000001
+              },
+              "Y": {
+                "type": "float",
+                "value": 132.7608
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            },
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 111.1449
+              },
+              "Y": {
+                "type": "float",
+                "value": 138.067
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 110.0969
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 139.7191
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -20.1545
+              },
+              "Y": {
+                "type": "float",
+                "value": -10.2424
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -19.2955
+              },
+              "Y": {
+                "type": "float",
+                "value": 4.9561
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 111.1449
+              },
+              "Y": {
+                "type": "float",
+                "value": 134.8372
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            },
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 136.2915
+              },
+              "Y": {
+                "type": "float",
+                "value": 139.6819
+              },
+              "Z": {
+                "type": "float",
+                "value": -0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 139.8451
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 139.9834
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 388
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll004"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 389
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "gnoll005"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 390
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin002"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 391
+              },
+              "CR": {
+                "type": "float",
+                "value": 10.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "hobgoblin003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 2
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -15.0002
+              },
+              "Y": {
+                "type": "float",
+                "value": 10.5066
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0274
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 5.2868
+              },
+              "Y": {
+                "type": "float",
+                "value": 20.155
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0226
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.4627
+              },
+              "Y": {
+                "type": "float",
+                "value": 20.3532
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0227
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -9.7798
+              },
+              "Y": {
+                "type": "float",
+                "value": 19.7579
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Gnoll & Hobgoblins CR 10",
+            "id": 91345
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 147.1346
+              },
+              "Y": {
+                "type": "float",
+                "value": 125.609
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            },
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 144.8275
+              },
+              "Y": {
+                "type": "float",
+                "value": 144.5267
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "GnollHobgoblinsCR10"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "gnoll002"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 149.6029
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 119.7771
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      }
+    ]
+  },
+  "List": {
+    "type": "list",
+    "value": []
+  },
+  "Placeable List": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 9,
+        "AnimationState": {
+          "type": "byte",
+          "value": 0
+        },
+        "Appearance": {
+          "type": "dword",
+          "value": 7
+        },
+        "AutoRemoveKey": {
+          "type": "byte",
+          "value": 0
+        },
+        "Bearing": {
+          "type": "float",
+          "value": -3.1415
+        },
+        "BodyBag": {
+          "type": "byte",
+          "value": 0
+        },
+        "CloseLockDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "Conversation": {
+          "type": "resref",
+          "value": ""
+        },
+        "CurrentHP": {
+          "type": "short",
+          "value": 15
+        },
+        "Description": {
+          "type": "cexolocstring",
+          "value": {
+            "id": 14595
+          }
+        },
+        "DisarmDC": {
+          "type": "byte",
+          "value": 15
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Fort": {
+          "type": "byte",
+          "value": 16
+        },
+        "Hardness": {
+          "type": "byte",
+          "value": 5
+        },
+        "HasInventory": {
+          "type": "byte",
+          "value": 1
+        },
+        "HP": {
+          "type": "short",
+          "value": 15
+        },
+        "Interruptable": {
+          "type": "byte",
+          "value": 0
+        },
+        "KeyName": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "KeyRequired": {
+          "type": "byte",
+          "value": 0
+        },
+        "Lockable": {
+          "type": "byte",
+          "value": 0
+        },
+        "Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "LocName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Chest",
+            "id": 5348
+          }
+        },
+        "OnClick": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnClosed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnDamaged": {
+          "type": "resref",
+          "value": "trgs_ondam_bash"
+        },
+        "OnDeath": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnDisarm": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnInvDisturbed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnLock": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnMeleeAttacked": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnOpen": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnSpellCastAt": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnTrapTriggered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUnlock": {
+          "type": "resref",
+          "value": "trgs_onunlock_xp"
+        },
+        "OnUsed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "OpenLockDC": {
+          "type": "byte",
+          "value": 18
+        },
+        "Plot": {
+          "type": "byte",
+          "value": 1
+        },
+        "PortraitId": {
+          "type": "word",
+          "value": 365
+        },
+        "Ref": {
+          "type": "byte",
+          "value": 0
+        },
+        "Static": {
+          "type": "byte",
+          "value": 0
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "low_loot"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "chest005"
+        },
+        "TrapDetectable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapDetectDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapDisarmable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapFlag": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapOneShot": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapType": {
+          "type": "byte",
+          "value": 0
+        },
+        "Type": {
+          "type": "byte",
+          "value": 0
+        },
+        "Useable": {
+          "type": "byte",
+          "value": 1
+        },
+        "Will": {
+          "type": "byte",
+          "value": 0
+        },
+        "X": {
+          "type": "float",
+          "value": 30.0
+        },
+        "Y": {
+          "type": "float",
+          "value": 15.0
+        },
+        "Z": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 9,
+        "AnimationState": {
+          "type": "byte",
+          "value": 0
+        },
+        "Appearance": {
+          "type": "dword",
+          "value": 7
+        },
+        "AutoRemoveKey": {
+          "type": "byte",
+          "value": 0
+        },
+        "Bearing": {
+          "type": "float",
+          "value": -3.1415
+        },
+        "BodyBag": {
+          "type": "byte",
+          "value": 0
+        },
+        "CloseLockDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "Conversation": {
+          "type": "resref",
+          "value": ""
+        },
+        "CurrentHP": {
+          "type": "short",
+          "value": 15
+        },
+        "Description": {
+          "type": "cexolocstring",
+          "value": {
+            "id": 14595
+          }
+        },
+        "DisarmDC": {
+          "type": "byte",
+          "value": 15
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Fort": {
+          "type": "byte",
+          "value": 16
+        },
+        "Hardness": {
+          "type": "byte",
+          "value": 5
+        },
+        "HasInventory": {
+          "type": "byte",
+          "value": 1
+        },
+        "HP": {
+          "type": "short",
+          "value": 15
+        },
+        "Interruptable": {
+          "type": "byte",
+          "value": 0
+        },
+        "KeyName": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "KeyRequired": {
+          "type": "byte",
+          "value": 0
+        },
+        "Lockable": {
+          "type": "byte",
+          "value": 0
+        },
+        "Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "LocName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Chest",
+            "id": 5348
+          }
+        },
+        "OnClick": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnClosed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnDamaged": {
+          "type": "resref",
+          "value": "trgs_ondam_bash"
+        },
+        "OnDeath": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnDisarm": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnInvDisturbed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnLock": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnMeleeAttacked": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnOpen": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnSpellCastAt": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnTrapTriggered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUnlock": {
+          "type": "resref",
+          "value": "trgs_onunlock_xp"
+        },
+        "OnUsed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "OpenLockDC": {
+          "type": "byte",
+          "value": 18
+        },
+        "Plot": {
+          "type": "byte",
+          "value": 1
+        },
+        "PortraitId": {
+          "type": "word",
+          "value": 365
+        },
+        "Ref": {
+          "type": "byte",
+          "value": 0
+        },
+        "Static": {
+          "type": "byte",
+          "value": 0
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "low_loot"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "chest005"
+        },
+        "TrapDetectable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapDetectDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapDisarmable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapFlag": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapOneShot": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapType": {
+          "type": "byte",
+          "value": 0
+        },
+        "Type": {
+          "type": "byte",
+          "value": 0
+        },
+        "Useable": {
+          "type": "byte",
+          "value": 1
+        },
+        "Will": {
+          "type": "byte",
+          "value": 0
+        },
+        "X": {
+          "type": "float",
+          "value": 75.0
+        },
+        "Y": {
+          "type": "float",
+          "value": 15.0
+        },
+        "Z": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 9,
+        "AnimationState": {
+          "type": "byte",
+          "value": 0
+        },
+        "Appearance": {
+          "type": "dword",
+          "value": 7
+        },
+        "AutoRemoveKey": {
+          "type": "byte",
+          "value": 0
+        },
+        "Bearing": {
+          "type": "float",
+          "value": -3.1415
+        },
+        "BodyBag": {
+          "type": "byte",
+          "value": 0
+        },
+        "CloseLockDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "Conversation": {
+          "type": "resref",
+          "value": ""
+        },
+        "CurrentHP": {
+          "type": "short",
+          "value": 15
+        },
+        "Description": {
+          "type": "cexolocstring",
+          "value": {
+            "id": 14595
+          }
+        },
+        "DisarmDC": {
+          "type": "byte",
+          "value": 15
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Fort": {
+          "type": "byte",
+          "value": 16
+        },
+        "Hardness": {
+          "type": "byte",
+          "value": 5
+        },
+        "HasInventory": {
+          "type": "byte",
+          "value": 1
+        },
+        "HP": {
+          "type": "short",
+          "value": 15
+        },
+        "Interruptable": {
+          "type": "byte",
+          "value": 0
+        },
+        "KeyName": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "KeyRequired": {
+          "type": "byte",
+          "value": 0
+        },
+        "Lockable": {
+          "type": "byte",
+          "value": 0
+        },
+        "Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "LocName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Chest",
+            "id": 5348
+          }
+        },
+        "OnClick": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnClosed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnDamaged": {
+          "type": "resref",
+          "value": "trgs_ondam_bash"
+        },
+        "OnDeath": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnDisarm": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnInvDisturbed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnLock": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnMeleeAttacked": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnOpen": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnSpellCastAt": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnTrapTriggered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUnlock": {
+          "type": "resref",
+          "value": "trgs_onunlock_xp"
+        },
+        "OnUsed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "OpenLockDC": {
+          "type": "byte",
+          "value": 18
+        },
+        "Plot": {
+          "type": "byte",
+          "value": 1
+        },
+        "PortraitId": {
+          "type": "word",
+          "value": 365
+        },
+        "Ref": {
+          "type": "byte",
+          "value": 0
+        },
+        "Static": {
+          "type": "byte",
+          "value": 0
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "low_loot"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "chest005"
+        },
+        "TrapDetectable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapDetectDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapDisarmable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapFlag": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapOneShot": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapType": {
+          "type": "byte",
+          "value": 0
+        },
+        "Type": {
+          "type": "byte",
+          "value": 0
+        },
+        "Useable": {
+          "type": "byte",
+          "value": 1
+        },
+        "Will": {
+          "type": "byte",
+          "value": 0
+        },
+        "X": {
+          "type": "float",
+          "value": 75.0
+        },
+        "Y": {
+          "type": "float",
+          "value": 65.0
+        },
+        "Z": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 9,
+        "AnimationState": {
+          "type": "byte",
+          "value": 0
+        },
+        "Appearance": {
+          "type": "dword",
+          "value": 7
+        },
+        "AutoRemoveKey": {
+          "type": "byte",
+          "value": 0
+        },
+        "Bearing": {
+          "type": "float",
+          "value": -3.1415
+        },
+        "BodyBag": {
+          "type": "byte",
+          "value": 0
+        },
+        "CloseLockDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "Conversation": {
+          "type": "resref",
+          "value": ""
+        },
+        "CurrentHP": {
+          "type": "short",
+          "value": 15
+        },
+        "Description": {
+          "type": "cexolocstring",
+          "value": {
+            "id": 14595
+          }
+        },
+        "DisarmDC": {
+          "type": "byte",
+          "value": 15
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Fort": {
+          "type": "byte",
+          "value": 16
+        },
+        "Hardness": {
+          "type": "byte",
+          "value": 5
+        },
+        "HasInventory": {
+          "type": "byte",
+          "value": 1
+        },
+        "HP": {
+          "type": "short",
+          "value": 15
+        },
+        "Interruptable": {
+          "type": "byte",
+          "value": 0
+        },
+        "KeyName": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "KeyRequired": {
+          "type": "byte",
+          "value": 0
+        },
+        "Lockable": {
+          "type": "byte",
+          "value": 0
+        },
+        "Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "LocName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Chest",
+            "id": 5348
+          }
+        },
+        "OnClick": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnClosed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnDamaged": {
+          "type": "resref",
+          "value": "trgs_ondam_bash"
+        },
+        "OnDeath": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnDisarm": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnInvDisturbed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnLock": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnMeleeAttacked": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnOpen": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnSpellCastAt": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnTrapTriggered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUnlock": {
+          "type": "resref",
+          "value": "trgs_onunlock_xp"
+        },
+        "OnUsed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "OpenLockDC": {
+          "type": "byte",
+          "value": 18
+        },
+        "Plot": {
+          "type": "byte",
+          "value": 1
+        },
+        "PortraitId": {
+          "type": "word",
+          "value": 365
+        },
+        "Ref": {
+          "type": "byte",
+          "value": 0
+        },
+        "Static": {
+          "type": "byte",
+          "value": 0
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "low_loot"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "chest005"
+        },
+        "TrapDetectable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapDetectDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapDisarmable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapFlag": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapOneShot": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapType": {
+          "type": "byte",
+          "value": 0
+        },
+        "Type": {
+          "type": "byte",
+          "value": 0
+        },
+        "Useable": {
+          "type": "byte",
+          "value": 1
+        },
+        "Will": {
+          "type": "byte",
+          "value": 0
+        },
+        "X": {
+          "type": "float",
+          "value": 35.0
+        },
+        "Y": {
+          "type": "float",
+          "value": 65.0
+        },
+        "Z": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 9,
+        "AnimationState": {
+          "type": "byte",
+          "value": 0
+        },
+        "Appearance": {
+          "type": "dword",
+          "value": 7
+        },
+        "AutoRemoveKey": {
+          "type": "byte",
+          "value": 0
+        },
+        "Bearing": {
+          "type": "float",
+          "value": -0.0
+        },
+        "BodyBag": {
+          "type": "byte",
+          "value": 0
+        },
+        "CloseLockDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "Conversation": {
+          "type": "resref",
+          "value": ""
+        },
+        "CurrentHP": {
+          "type": "short",
+          "value": 15
+        },
+        "Description": {
+          "type": "cexolocstring",
+          "value": {
+            "id": 14595
+          }
+        },
+        "DisarmDC": {
+          "type": "byte",
+          "value": 15
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Fort": {
+          "type": "byte",
+          "value": 16
+        },
+        "Hardness": {
+          "type": "byte",
+          "value": 5
+        },
+        "HasInventory": {
+          "type": "byte",
+          "value": 1
+        },
+        "HP": {
+          "type": "short",
+          "value": 15
+        },
+        "Interruptable": {
+          "type": "byte",
+          "value": 0
+        },
+        "KeyName": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "KeyRequired": {
+          "type": "byte",
+          "value": 0
+        },
+        "Lockable": {
+          "type": "byte",
+          "value": 0
+        },
+        "Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "LocName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Chest",
+            "id": 5348
+          }
+        },
+        "OnClick": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnClosed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnDamaged": {
+          "type": "resref",
+          "value": "trgs_ondam_bash"
+        },
+        "OnDeath": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnDisarm": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnInvDisturbed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnLock": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnMeleeAttacked": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnOpen": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnSpellCastAt": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnTrapTriggered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUnlock": {
+          "type": "resref",
+          "value": "trgs_onunlock_xp"
+        },
+        "OnUsed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "OpenLockDC": {
+          "type": "byte",
+          "value": 18
+        },
+        "Plot": {
+          "type": "byte",
+          "value": 1
+        },
+        "PortraitId": {
+          "type": "word",
+          "value": 365
+        },
+        "Ref": {
+          "type": "byte",
+          "value": 0
+        },
+        "Static": {
+          "type": "byte",
+          "value": 0
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "low_loot"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "chest005"
+        },
+        "TrapDetectable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapDetectDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapDisarmable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapFlag": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapOneShot": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapType": {
+          "type": "byte",
+          "value": 0
+        },
+        "Type": {
+          "type": "byte",
+          "value": 0
+        },
+        "Useable": {
+          "type": "byte",
+          "value": 1
+        },
+        "Will": {
+          "type": "byte",
+          "value": 0
+        },
+        "X": {
+          "type": "float",
+          "value": 45.0
+        },
+        "Y": {
+          "type": "float",
+          "value": 155.0
+        },
+        "Z": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 9,
+        "AnimationState": {
+          "type": "byte",
+          "value": 0
+        },
+        "Appearance": {
+          "type": "dword",
+          "value": 7
+        },
+        "AutoRemoveKey": {
+          "type": "byte",
+          "value": 0
+        },
+        "Bearing": {
+          "type": "float",
+          "value": -0.0
+        },
+        "BodyBag": {
+          "type": "byte",
+          "value": 0
+        },
+        "CloseLockDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "Conversation": {
+          "type": "resref",
+          "value": ""
+        },
+        "CurrentHP": {
+          "type": "short",
+          "value": 15
+        },
+        "Description": {
+          "type": "cexolocstring",
+          "value": {
+            "id": 14595
+          }
+        },
+        "DisarmDC": {
+          "type": "byte",
+          "value": 15
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Fort": {
+          "type": "byte",
+          "value": 16
+        },
+        "Hardness": {
+          "type": "byte",
+          "value": 5
+        },
+        "HasInventory": {
+          "type": "byte",
+          "value": 1
+        },
+        "HP": {
+          "type": "short",
+          "value": 15
+        },
+        "Interruptable": {
+          "type": "byte",
+          "value": 0
+        },
+        "KeyName": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "KeyRequired": {
+          "type": "byte",
+          "value": 0
+        },
+        "Lockable": {
+          "type": "byte",
+          "value": 0
+        },
+        "Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "LocName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Chest",
+            "id": 5348
+          }
+        },
+        "OnClick": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnClosed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnDamaged": {
+          "type": "resref",
+          "value": "trgs_ondam_bash"
+        },
+        "OnDeath": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnDisarm": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnInvDisturbed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnLock": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnMeleeAttacked": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnOpen": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnSpellCastAt": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnTrapTriggered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUnlock": {
+          "type": "resref",
+          "value": "trgs_onunlock_xp"
+        },
+        "OnUsed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "OpenLockDC": {
+          "type": "byte",
+          "value": 18
+        },
+        "Plot": {
+          "type": "byte",
+          "value": 1
+        },
+        "PortraitId": {
+          "type": "word",
+          "value": 365
+        },
+        "Ref": {
+          "type": "byte",
+          "value": 0
+        },
+        "Static": {
+          "type": "byte",
+          "value": 0
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "low_loot"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "chest005"
+        },
+        "TrapDetectable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapDetectDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapDisarmable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapFlag": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapOneShot": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapType": {
+          "type": "byte",
+          "value": 0
+        },
+        "Type": {
+          "type": "byte",
+          "value": 0
+        },
+        "Useable": {
+          "type": "byte",
+          "value": 1
+        },
+        "Will": {
+          "type": "byte",
+          "value": 0
+        },
+        "X": {
+          "type": "float",
+          "value": 115.0
+        },
+        "Y": {
+          "type": "float",
+          "value": 155.0
+        },
+        "Z": {
+          "type": "float",
+          "value": 0.01
+        }
+      }
+    ]
+  },
+  "SoundList": {
+    "type": "list",
+    "value": []
+  },
+  "StoreList": {
+    "type": "list",
+    "value": []
+  },
+  "TriggerList": {
+    "type": "list",
+    "value": []
+  },
+  "WaypointList": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 5,
+        "Appearance": {
+          "type": "byte",
+          "value": 2
+        },
+        "Description": {
+          "type": "cexolocstring",
+          "value": {}
+        },
+        "HasMapNote": {
+          "type": "byte",
+          "value": 1
+        },
+        "LinkedTo": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "POST_Pripet Marsh Entrance 1"
+          }
+        },
+        "MapNote": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Carpathian Forest North"
+          }
+        },
+        "MapNoteEnabled": {
+          "type": "byte",
+          "value": 1
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "POST_PripetMarshEntrance1"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "post_"
+        },
+        "XOrientation": {
+          "type": "float",
+          "value": 0.0
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 9.227
+        },
+        "YOrientation": {
+          "type": "float",
+          "value": 1.0
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 23.6537
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0177
+        }
+      },
+      {
+        "__struct_id": 5,
+        "Appearance": {
+          "type": "byte",
+          "value": 2
+        },
+        "Description": {
+          "type": "cexolocstring",
+          "value": {}
+        },
+        "HasMapNote": {
+          "type": "byte",
+          "value": 1
+        },
+        "LinkedTo": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "POST_Pripet Marshes Exit 1"
+          }
+        },
+        "MapNote": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Pripet Marshes 2"
+          }
+        },
+        "MapNoteEnabled": {
+          "type": "byte",
+          "value": 1
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "POST_PripetMarshesExit1"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "post_"
+        },
+        "XOrientation": {
+          "type": "float",
+          "value": 0.0
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 152.3961
+        },
+        "YOrientation": {
+          "type": "float",
+          "value": 1.0
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 114.9146
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": -1.3615
+        }
+      }
+    ]
+  }
+}

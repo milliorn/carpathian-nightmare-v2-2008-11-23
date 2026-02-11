@@ -1,0 +1,2588 @@
+{
+  "__data_type": "GIT ",
+  "AreaProperties": {
+    "__struct_id": 100,
+    "type": "struct",
+    "value": {
+      "__struct_id": 100,
+      "AmbientSndDay": {
+        "type": "int",
+        "value": 103
+      },
+      "AmbientSndDayVol": {
+        "type": "int",
+        "value": 82
+      },
+      "AmbientSndNight": {
+        "type": "int",
+        "value": 103
+      },
+      "AmbientSndNitVol": {
+        "type": "int",
+        "value": 82
+      },
+      "EnvAudio": {
+        "type": "int",
+        "value": 51
+      },
+      "MusicBattle": {
+        "type": "int",
+        "value": 73
+      },
+      "MusicDay": {
+        "type": "int",
+        "value": 68
+      },
+      "MusicDelay": {
+        "type": "int",
+        "value": 51000
+      },
+      "MusicNight": {
+        "type": "int",
+        "value": 68
+      }
+    }
+  },
+  "Creature List": {
+    "type": "list",
+    "value": []
+  },
+  "Door List": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 8,
+        "AnimationState": {
+          "type": "byte",
+          "value": 1
+        },
+        "Appearance": {
+          "type": "dword",
+          "value": 57
+        },
+        "AutoRemoveKey": {
+          "type": "byte",
+          "value": 0
+        },
+        "Bearing": {
+          "type": "float",
+          "value": -3.1413
+        },
+        "CloseLockDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "Conversation": {
+          "type": "resref",
+          "value": ""
+        },
+        "CurrentHP": {
+          "type": "short",
+          "value": 80
+        },
+        "Description": {
+          "type": "cexolocstring",
+          "value": {}
+        },
+        "DisarmDC": {
+          "type": "byte",
+          "value": 15
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Fort": {
+          "type": "byte",
+          "value": 16
+        },
+        "GenericType_New": {
+          "type": "dword",
+          "value": 0
+        },
+        "Hardness": {
+          "type": "byte",
+          "value": 5
+        },
+        "HP": {
+          "type": "short",
+          "value": 80
+        },
+        "Interruptable": {
+          "type": "byte",
+          "value": 1
+        },
+        "KeyName": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "KeyRequired": {
+          "type": "byte",
+          "value": 0
+        },
+        "LinkedTo": {
+          "type": "cexostring",
+          "value": "ApuseniMountain3A"
+        },
+        "LinkedToFlags": {
+          "type": "byte",
+          "value": 1
+        },
+        "LoadScreenID": {
+          "type": "word",
+          "value": 0
+        },
+        "Lockable": {
+          "type": "byte",
+          "value": 0
+        },
+        "Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "LocName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Apuseni Cave 3 A",
+            "id": 5349
+          }
+        },
+        "OnClick": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnClosed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnDamaged": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnDeath": {
+          "type": "resref",
+          "value": "x2_door_death"
+        },
+        "OnDisarm": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnFailToOpen": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnLock": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnMeleeAttacked": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnOpen": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnSpellCastAt": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnTrapTriggered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUnlock": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "OpenLockDC": {
+          "type": "byte",
+          "value": 18
+        },
+        "Plot": {
+          "type": "byte",
+          "value": 1
+        },
+        "PortraitId": {
+          "type": "word",
+          "value": 0
+        },
+        "Ref": {
+          "type": "byte",
+          "value": 0
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "ApuseniCave3A"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "nw_door_ttr_12"
+        },
+        "TrapDetectable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapDetectDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapDisarmable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapFlag": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapOneShot": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapType": {
+          "type": "byte",
+          "value": 0
+        },
+        "Will": {
+          "type": "byte",
+          "value": 0
+        },
+        "X": {
+          "type": "float",
+          "value": 15.26
+        },
+        "Y": {
+          "type": "float",
+          "value": 5.51
+        },
+        "Z": {
+          "type": "float",
+          "value": -0.44
+        }
+      }
+    ]
+  },
+  "Encounter List": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 54
+              },
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "battdevour003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 24
+              },
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "golbone001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 88
+              },
+              "Comment": {
+                "type": "cexostring",
+                "value": ""
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "golflesh001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 102
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "horror001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 117
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "devour001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 168
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "umberhulk001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 4
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -23.6444
+              },
+              "Y": {
+                "type": "float",
+                "value": 3.189
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -22.3373
+              },
+              "Y": {
+                "type": "float",
+                "value": -0.2517
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.2454
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 3.8478
+              },
+              "Y": {
+                "type": "float",
+                "value": 3.2837
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.2811
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Apuseni Caves CR 30",
+            "id": 14460
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 15.2551
+              },
+              "Y": {
+                "type": "float",
+                "value": 25.6317
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.5563
+              }
+            },
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 14.7911
+              },
+              "Y": {
+                "type": "float",
+                "value": 18.9712
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            },
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 15.0752
+              },
+              "Y": {
+                "type": "float",
+                "value": 42.1753
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "ApuseniCavesCR30"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "aberration001"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 29.8322
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 17.3085
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 54
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "battdevour003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 24
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "golbone001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 88
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "golflesh001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 102
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "horror001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 117
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "devour001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 168
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "umberhulk001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 4
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -17.4031
+              },
+              "Y": {
+                "type": "float",
+                "value": -0.0451
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0229
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -0.5124
+              },
+              "Y": {
+                "type": "float",
+                "value": 3.7786
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.3207
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -15.7417
+              },
+              "Y": {
+                "type": "float",
+                "value": 3.9471
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.2308
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Apuseni Caves CR 30",
+            "id": 14460
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": []
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "ApuseniCavesCR30"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "aberration001"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 24.2743
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 30.3911
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 54
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "battdevour003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 24
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "golbone001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 88
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "golflesh001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 102
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "horror001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 117
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "devour001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 168
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "umberhulk001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 4
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -15.8849
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0553
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -0.7195
+              },
+              "Y": {
+                "type": "float",
+                "value": 3.0995
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -15.4186
+              },
+              "Y": {
+                "type": "float",
+                "value": 3.5188
+              },
+              "Z": {
+                "type": "float",
+                "value": 1.0155
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Apuseni Caves CR 30",
+            "id": 14460
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 15.1493
+              },
+              "Y": {
+                "type": "float",
+                "value": 38.5607
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            },
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 15.3153
+              },
+              "Y": {
+                "type": "float",
+                "value": 61.2534
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "ApuseniCavesCR30"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "aberration001"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 22.3445
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 50.2392
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 54
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "battdevour003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 24
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "golbone001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 88
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "golflesh001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 102
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "horror001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 117
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "devour001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 168
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "umberhulk001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 4
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -3.2947
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 2.471
+              },
+              "Y": {
+                "type": "float",
+                "value": 14.636
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -2.0537
+              },
+              "Y": {
+                "type": "float",
+                "value": 14.5859
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.1729
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Apuseni Caves CR 30",
+            "id": 14460
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 11.1345
+              },
+              "Y": {
+                "type": "float",
+                "value": 63.4634
+              },
+              "Z": {
+                "type": "float",
+                "value": -0.0
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "ApuseniCavesCR30"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "aberration001"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 29.5468
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 57.8226
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Active": {
+          "type": "byte",
+          "value": 1
+        },
+        "CreatureList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 54
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "battdevour003"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 24
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "golbone001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 88
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "golflesh001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 102
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "horror001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 117
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "devour001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Appearance": {
+                "type": "int",
+                "value": 168
+              },
+              "CR": {
+                "type": "float",
+                "value": 30.0
+              },
+              "ResRef": {
+                "type": "resref",
+                "value": "umberhulk001"
+              },
+              "SingleSpawn": {
+                "type": "byte",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "Difficulty": {
+          "type": "int",
+          "value": 0
+        },
+        "DifficultyIndex": {
+          "type": "int",
+          "value": 4
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Geometry": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -3.1838
+              },
+              "Y": {
+                "type": "float",
+                "value": 15.7532
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.0438
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": -3.1817
+              },
+              "Y": {
+                "type": "float",
+                "value": -0.0207
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.025
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.0
+              },
+              "Z": {
+                "type": "float",
+                "value": 1.0967
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.3941
+              },
+              "Y": {
+                "type": "float",
+                "value": 0.5022
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.5926
+              }
+            },
+            {
+              "__struct_id": 1,
+              "X": {
+                "type": "float",
+                "value": 0.4047
+              },
+              "Y": {
+                "type": "float",
+                "value": 15.9409
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.5259
+              }
+            }
+          ]
+        },
+        "LocalizedName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Apuseni Caves CR 30",
+            "id": 14460
+          }
+        },
+        "MaxCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "OnEntered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExhausted": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnExit": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "PlayerOnly": {
+          "type": "byte",
+          "value": 1
+        },
+        "RecCreatures": {
+          "type": "int",
+          "value": 2
+        },
+        "Reset": {
+          "type": "byte",
+          "value": 1
+        },
+        "ResetTime": {
+          "type": "int",
+          "value": 600
+        },
+        "Respawns": {
+          "type": "int",
+          "value": -1
+        },
+        "SpawnOption": {
+          "type": "int",
+          "value": 0
+        },
+        "SpawnPointList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 35.8433
+              },
+              "Y": {
+                "type": "float",
+                "value": 64.916
+              },
+              "Z": {
+                "type": "float",
+                "value": -0.0
+              }
+            },
+            {
+              "__struct_id": 2,
+              "Orientation": {
+                "type": "float",
+                "value": -0.0
+              },
+              "X": {
+                "type": "float",
+                "value": 61.4703
+              },
+              "Y": {
+                "type": "float",
+                "value": 65.133
+              },
+              "Z": {
+                "type": "float",
+                "value": 0.1294
+              }
+            }
+          ]
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "ApuseniCavesCR30"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "aberration001"
+        },
+        "XPosition": {
+          "type": "float",
+          "value": 53.4493
+        },
+        "YPosition": {
+          "type": "float",
+          "value": 56.5691
+        },
+        "ZPosition": {
+          "type": "float",
+          "value": 0.0
+        }
+      }
+    ]
+  },
+  "List": {
+    "type": "list",
+    "value": []
+  },
+  "Placeable List": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 9,
+        "AnimationState": {
+          "type": "byte",
+          "value": 4
+        },
+        "Appearance": {
+          "type": "dword",
+          "value": 451
+        },
+        "AutoRemoveKey": {
+          "type": "byte",
+          "value": 0
+        },
+        "Bearing": {
+          "type": "float",
+          "value": -1.5708
+        },
+        "BodyBag": {
+          "type": "byte",
+          "value": 0
+        },
+        "CloseLockDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "Conversation": {
+          "type": "resref",
+          "value": ""
+        },
+        "CurrentHP": {
+          "type": "short",
+          "value": 15
+        },
+        "Description": {
+          "type": "cexolocstring",
+          "value": {
+            "id": 14595
+          }
+        },
+        "DisarmDC": {
+          "type": "byte",
+          "value": 15
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Fort": {
+          "type": "byte",
+          "value": 16
+        },
+        "Hardness": {
+          "type": "byte",
+          "value": 5
+        },
+        "HasInventory": {
+          "type": "byte",
+          "value": 1
+        },
+        "HP": {
+          "type": "short",
+          "value": 15
+        },
+        "Interruptable": {
+          "type": "byte",
+          "value": 0
+        },
+        "KeyName": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "KeyRequired": {
+          "type": "byte",
+          "value": 0
+        },
+        "Lockable": {
+          "type": "byte",
+          "value": 0
+        },
+        "Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "LocName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Crystal",
+            "id": 5348
+          }
+        },
+        "OnClick": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnClosed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnDamaged": {
+          "type": "resref",
+          "value": "trgs_ondam_bash"
+        },
+        "OnDeath": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnDisarm": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnInvDisturbed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnLock": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnMeleeAttacked": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnOpen": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnSpellCastAt": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnTrapTriggered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUnlock": {
+          "type": "resref",
+          "value": "trgs_onunlock_xp"
+        },
+        "OnUsed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "OpenLockDC": {
+          "type": "byte",
+          "value": 18
+        },
+        "Plot": {
+          "type": "byte",
+          "value": 1
+        },
+        "PortraitId": {
+          "type": "word",
+          "value": 0
+        },
+        "Ref": {
+          "type": "byte",
+          "value": 0
+        },
+        "Static": {
+          "type": "byte",
+          "value": 0
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "low_loot"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "chest011"
+        },
+        "TrapDetectable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapDetectDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapDisarmable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapFlag": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapOneShot": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapType": {
+          "type": "byte",
+          "value": 0
+        },
+        "Type": {
+          "type": "byte",
+          "value": 0
+        },
+        "Useable": {
+          "type": "byte",
+          "value": 1
+        },
+        "Will": {
+          "type": "byte",
+          "value": 0
+        },
+        "X": {
+          "type": "float",
+          "value": 30.0
+        },
+        "Y": {
+          "type": "float",
+          "value": 40.0
+        },
+        "Z": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 9,
+        "AnimationState": {
+          "type": "byte",
+          "value": 4
+        },
+        "Appearance": {
+          "type": "dword",
+          "value": 451
+        },
+        "AutoRemoveKey": {
+          "type": "byte",
+          "value": 0
+        },
+        "Bearing": {
+          "type": "float",
+          "value": -1.5708
+        },
+        "BodyBag": {
+          "type": "byte",
+          "value": 0
+        },
+        "CloseLockDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "Conversation": {
+          "type": "resref",
+          "value": ""
+        },
+        "CurrentHP": {
+          "type": "short",
+          "value": 15
+        },
+        "Description": {
+          "type": "cexolocstring",
+          "value": {
+            "id": 14595
+          }
+        },
+        "DisarmDC": {
+          "type": "byte",
+          "value": 15
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Fort": {
+          "type": "byte",
+          "value": 16
+        },
+        "Hardness": {
+          "type": "byte",
+          "value": 5
+        },
+        "HasInventory": {
+          "type": "byte",
+          "value": 1
+        },
+        "HP": {
+          "type": "short",
+          "value": 15
+        },
+        "Interruptable": {
+          "type": "byte",
+          "value": 0
+        },
+        "KeyName": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "KeyRequired": {
+          "type": "byte",
+          "value": 0
+        },
+        "Lockable": {
+          "type": "byte",
+          "value": 0
+        },
+        "Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "LocName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Crystal",
+            "id": 5348
+          }
+        },
+        "OnClick": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnClosed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnDamaged": {
+          "type": "resref",
+          "value": "trgs_ondam_bash"
+        },
+        "OnDeath": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnDisarm": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnInvDisturbed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnLock": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnMeleeAttacked": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnOpen": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnSpellCastAt": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnTrapTriggered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUnlock": {
+          "type": "resref",
+          "value": "trgs_onunlock_xp"
+        },
+        "OnUsed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "OpenLockDC": {
+          "type": "byte",
+          "value": 18
+        },
+        "Plot": {
+          "type": "byte",
+          "value": 1
+        },
+        "PortraitId": {
+          "type": "word",
+          "value": 0
+        },
+        "Ref": {
+          "type": "byte",
+          "value": 0
+        },
+        "Static": {
+          "type": "byte",
+          "value": 0
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "low_loot"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "chest011"
+        },
+        "TrapDetectable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapDetectDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapDisarmable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapFlag": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapOneShot": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapType": {
+          "type": "byte",
+          "value": 0
+        },
+        "Type": {
+          "type": "byte",
+          "value": 0
+        },
+        "Useable": {
+          "type": "byte",
+          "value": 1
+        },
+        "Will": {
+          "type": "byte",
+          "value": 0
+        },
+        "X": {
+          "type": "float",
+          "value": 30.0
+        },
+        "Y": {
+          "type": "float",
+          "value": 20.0
+        },
+        "Z": {
+          "type": "float",
+          "value": 0.0
+        }
+      },
+      {
+        "__struct_id": 9,
+        "AnimationState": {
+          "type": "byte",
+          "value": 4
+        },
+        "Appearance": {
+          "type": "dword",
+          "value": 451
+        },
+        "AutoRemoveKey": {
+          "type": "byte",
+          "value": 0
+        },
+        "Bearing": {
+          "type": "float",
+          "value": -3.1415
+        },
+        "BodyBag": {
+          "type": "byte",
+          "value": 0
+        },
+        "CloseLockDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "Conversation": {
+          "type": "resref",
+          "value": ""
+        },
+        "CurrentHP": {
+          "type": "short",
+          "value": 15
+        },
+        "Description": {
+          "type": "cexolocstring",
+          "value": {
+            "id": 14595
+          }
+        },
+        "DisarmDC": {
+          "type": "byte",
+          "value": 15
+        },
+        "Faction": {
+          "type": "dword",
+          "value": 1
+        },
+        "Fort": {
+          "type": "byte",
+          "value": 16
+        },
+        "Hardness": {
+          "type": "byte",
+          "value": 5
+        },
+        "HasInventory": {
+          "type": "byte",
+          "value": 1
+        },
+        "HP": {
+          "type": "short",
+          "value": 15
+        },
+        "Interruptable": {
+          "type": "byte",
+          "value": 0
+        },
+        "KeyName": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "KeyRequired": {
+          "type": "byte",
+          "value": 0
+        },
+        "Lockable": {
+          "type": "byte",
+          "value": 0
+        },
+        "Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "LocName": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Crystal",
+            "id": 5348
+          }
+        },
+        "OnClick": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnClosed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnDamaged": {
+          "type": "resref",
+          "value": "trgs_ondam_bash"
+        },
+        "OnDeath": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnDisarm": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnHeartbeat": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnInvDisturbed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnLock": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnMeleeAttacked": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnOpen": {
+          "type": "resref",
+          "value": "trgs_o2_gen_low"
+        },
+        "OnSpellCastAt": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnTrapTriggered": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUnlock": {
+          "type": "resref",
+          "value": "trgs_onunlock_xp"
+        },
+        "OnUsed": {
+          "type": "resref",
+          "value": ""
+        },
+        "OnUserDefined": {
+          "type": "resref",
+          "value": ""
+        },
+        "OpenLockDC": {
+          "type": "byte",
+          "value": 18
+        },
+        "Plot": {
+          "type": "byte",
+          "value": 1
+        },
+        "PortraitId": {
+          "type": "word",
+          "value": 0
+        },
+        "Ref": {
+          "type": "byte",
+          "value": 0
+        },
+        "Static": {
+          "type": "byte",
+          "value": 0
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "low_loot"
+        },
+        "TemplateResRef": {
+          "type": "resref",
+          "value": "chest011"
+        },
+        "TrapDetectable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapDetectDC": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapDisarmable": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapFlag": {
+          "type": "byte",
+          "value": 0
+        },
+        "TrapOneShot": {
+          "type": "byte",
+          "value": 1
+        },
+        "TrapType": {
+          "type": "byte",
+          "value": 0
+        },
+        "Type": {
+          "type": "byte",
+          "value": 0
+        },
+        "Useable": {
+          "type": "byte",
+          "value": 1
+        },
+        "Will": {
+          "type": "byte",
+          "value": 0
+        },
+        "X": {
+          "type": "float",
+          "value": 50.0
+        },
+        "Y": {
+          "type": "float",
+          "value": 50.0
+        },
+        "Z": {
+          "type": "float",
+          "value": 0.0
+        }
+      }
+    ]
+  },
+  "SoundList": {
+    "type": "list",
+    "value": []
+  },
+  "StoreList": {
+    "type": "list",
+    "value": []
+  },
+  "TriggerList": {
+    "type": "list",
+    "value": []
+  },
+  "WaypointList": {
+    "type": "list",
+    "value": []
+  }
+}

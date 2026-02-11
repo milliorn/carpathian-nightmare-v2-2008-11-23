@@ -1,0 +1,977 @@
+{
+  "__data_type": "JRL ",
+  "Categories": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "Vist our Webpage and Forums:\n\nhttp://CarpathianNightmare.com/forum/"
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": " New Forums & Website"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 0
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "Contacts_Journal"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 1,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "ACN {DM} Roster\n\nDorrian and Shimmer are the current Admins for this server.\n\nActive Roster:\n\nMilliorn{M} Creator\nBassbastard{DM}\nDM_YeahToast\n"
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Dungeon Masters"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "Dungeon_Masters_Journal"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "Feat Changes\n\n\nBarbarian Rages:\n\nALL RAGES:\n Level Modifier: 1= +2, 10= +3, 20= +4, 30= +5, 40= +6\n Duration: (Level Modifier * CON mod) Duration\n\nBarbarian Rage / Greater Rage\n -2 AC +2 AB if less than Level 15\n -1 AC +4 AB if less than Level 40\n -0 AC +6 AB = Level 40\n\n Discipline Bonus = Constition Modifier / 2 \n STR & CON Bonus = Level Modifier * 2\n Will Saves Bonus = 3 + Level Modifier\n\nThundering Rage Add-On:\n 2d8, 2d10 or 2d12 Sonic damage (Level Mod 4,5,6)\n Reflex Saves Bonus = Level Modifier\n Main weapon gains On Hit Deafness DC 14 + Level Modifier * 2 (18 min, max 26)\n\nTerrifying Rage Add-On:\n Terrifying Rage Pulse every 4 rounds for Duration of Rage\n DC = Barbarian Level + Intimidate Skill Rank / 2\n On Failed Will Save\n  if Level = BarbarianLevels = Fear 1-3 rounds, % chance of Fear Paralysis\n  if Level = BarbarianLevels * 2 =  AC / Saves Decreased by 2 for 2-4 rounds\n\nMighty Rage:\n Weapons gain 2d8, 2d10 or 2d12 Massive Criticals damage (Level Mod 4, 5, 6)\n (BarbLevel*BarbLevel)/8 Temporary Hitpoints (50-200)\n (LevelModifier-2) AB (2-4)\n LevelModifier Fort Saves (4-6)\n LevelModifier Initimidate (4-6)\n 1+LevelModifier Elemental Resistance (5-7)\n\nMighty rage and greater rage stack. Normal rage and greater rage do not stack. Epic rages (Thundering, Terrifying) are applied to normal rage and not to mighty rage.\n\nBone Skin: Disabled\n\nDeath Arrow: DC = 20 + Arcane Archer Levels.\n\nDeathless Mastery Touch:  DC = 17 + Palemaster Class Level.\n\nDisarm & Improved Disarm - Weapon falls into Targets inventory.\n\nImbue Arrow: Damage =  Arcane Archer Class Level * d6."
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Feat Changes"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "Feats_Journal"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 3,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "A Carpathian Nightmare Guild Directory\n\nHouses will be added after the first phase of the guild system is finished.  Offical Guilds will have there own house, with other features to be added with it.  For now, the only Offical Guilds that have replied to my post on the forums will have these features.  To gain these features read forums to find out more about the New Guild System.\n\nLadies of Carpathia - Badkitty & Desi\nThe Swift - Jasper the Swift\nLegion of the Damned - Tanis\nLeague of Gentlemen - Hareless\nOrder of Vengeance - Harlequin\n-= TeH =- - -eJay-\nH.A.L.O. - Rune & Kricket\nBLOOD - BloodSins\nVisigoths - Lord Visigoth"
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Guild Directory"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "Clan_Houses_Journal"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 4,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "To socket a gem into a socket item, use the gem's unique power and target the socket item. \nIf you use the socket item's unique power, it will display the amount of sockets available on that item."
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "How to Socket Items"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "Sockets"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 5,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "nItemLevel is the Equipped Item's Restricted Level.\nnGPValue is the Equipped Item's Gold Piece Value\n\n(nGPValue     861000) nItemLevel = 40\n(nGPValue >  741000) nItemLevel = 39\n(nGPValue >  703000) nItemLevel = 38\n(nGPValue >  666000) nItemLevel = 37\n(nGPValue >  630000) nItemLevel = 36\n(nGPValue >  595000) nItemLevel = 35\n(nGPValue >  561000) nItemLevel = 34\n(nGPValue >  528000) nItemLevel = 33\n(nGPValue >  496000) nItemLevel = 32\n(nGPValue >  465000) nItemLevel = 31\n(nGPValue >  435000) nItemLevel = 30\n(nGPValue >  406000) nItemLevel = 29\n(nGPValue >  378000) nItemLevel = 28\n(nGPValue >  351000) nItemLevel = 27\n(nGPValue >  325000) nItemLevel = 26\n(nGPValue >  300000) nItemLevel = 25\n(nGPValue >  276000) nItemLevel = 24\n(nGPValue >  253000) nItemLevel = 23\n(nGPValue >  250000) nItemLevel = 22\n(nGPValue >  130000) nItemLevel = 21\n(nGPValue >  110000) nItemLevel = 20\n(nGPValue >    90000) nItemLevel = 19\n(nGPValue >    75000) nItemLevel = 18\n(nGPValue >    65000) nItemLevel = 17\n(nGPValue >    50000) nItemLevel = 16\n(nGPValue >    40000) nItemLevel = 15\n(nGPValue >    35000) nItemLevel = 14\n(nGPValue >    30000) nItemLevel = 13\n(nGPValue >    25000) nItemLevel = 12\n(nGPValue >    19500) nItemLevel = 11\n(nGPValue >    15000) nItemLevel = 10\n(nGPValue >    12000) nItemLevel = 9\n(nGPValue >      9000) nItemLevel = 8\n(nGPValue >      6000) nItemLevel = 7\n(nGPValue >      5000) nItemLevel = 6\n(nGPValue >      3500) nItemLevel = 5\n(nGPValue >      2500) nItemLevel = 4\n(nGPValue >      1500) nItemLevel = 3\n(nGPValue >      1000) nItemLevel = 2\n\nif less than 1000 GP then its not restricted."
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Item Level Restrictions - Chart"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "ILR_Chart"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "MAKE SURE YOU LEAVE THE ONE INVENTORY TAB AVAILABLE IN THE EVENT ALL YOUR ITEMS BECOMES UNEQUPPED.  YOU HAVE SIX TABS SO NO EXCUSES FOR GEAR THAT IS LOST DUE TO SCRIPT UNEQUIPPING!\n\nAmmunition is excluded from ILR Script.\n\nIf you are caught with an item that is forbidden, it will be confiscated with notice without a refund.\n\nIllegal gear for example be anything that exceeds what the pop-up message in Astral Plane displays such as...\n\n>= +7 on AB, AC, EB\n>= +3 Regeneration\n>= +7 Saving Throws, Ability Points, Skill Points\n>= -10 Damage Resistance\nOn Hit Property(except Disarm with whip)\nOn Hit Cast Spell\nAnything with Immunity(except Subraces)\nAnything with Feats\nAnything with True Seeing(except Shifter hides)"
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Item Level Restrictions - Rules"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "ILR_Rules"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 7,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "A Carpathian Nightmare: Areas\n\nLevel 1-7\n\nTown Crypt\nCarpathian Forest\nForest Ruins\n\nLevel 5-12\n\nPripet Marshes\nPripet Mansion\n\nLevel 10-17\n\nRucar-Bran Groove \nGödöllo Hills \nQueen's Hive\nLizard's Den\n\nLevel 15-22\n\nCarpathian Highlands Crossroads\nVáh Valley Land \nVáh Valley Coven\nHouse of Godollo\n\nLevel 20-27\n\nOravská Magura - Lower\nOravská Magura - Upper\nOrava Beskids\nKjempe's Hole\n\nLevel 25-32\n\nApuseni Mountain\nApuseni Caves\nLipova Plateau \n\nLevel 30-37\n\nSilesian Beskids \nCarpathian Desert Crossroads\nSilesian Desert\nSilesian Volcano\nRavana's Coven\n\nLevel 33-40+\n\nDracul's Nest\nDracul's Manor\nGauntlet\nMoravian Sewer\nSanctuary of the Souless\n\nPlots, Puzzles, an Quest:\n\nAsterius Maze\nSanctuary of the Souless\nRavana's Tunnels\n\nCamp Zones:\n\nLizard's Den\nHouse of Godollo\nOravská Magura Cave\nApuseni Caves\nRavana's Coven"
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Maps"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "Areas_Journal"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "You cannot sell items directly to a Merchant EXCEPT for the Market Merchant.  \nHowever, you can drop an item for gold, an that item is sent to the Market to be for sale by the Market Merchant. \nIf you want to split loot with your party, use the Party Loot Splitter in Home.  \nAll items unacquired will be sent to the market.  \nEvery hour the market purges its inventory. \nItems are bought at a rate of 10% of there value."
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Merchants"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "Merchants_Journal"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 9,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "Acceptable DM Punishments\n\n1.  Verbal Warning\n2.  Death\n3.  Loss of XP/GP\n4.  Jail\n5.  Loss of ITEMS\n6.  Current character DELETED       \n7.  All character's DELETED\n8.  Temporary Banishment (based on Milliorn an Staff)\n9.  Permanent Banishment (discretion of Milliorn)"
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Punishment"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "Punishment_Journal"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 10,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "1.  No Griefing.  This is defined as...\nThe unfair use or abuse of a game mechanic that was not intended by the game's developers. \nThe inability of the victim to exact some means of retribution beyond utilizing similar unintended game mechanics. \nThe intended purpose of an act of griefing must be to negatively impact the game play of another person. \n     \nPlayers will often consider the following actions to constitute griefing: kill stealing, player killing(repeatedly), spamming, team killing (or team wounding), door or path blocking, ninja looting, spawn camping, and corpse camping.\n\n2.  No resurrecting a player(especially after PK'ing them) with intent to PK them.\n\n3.  You may run from a PvP fight.\n\n4.  Do not hunt Players unless they have bounties.  You may PK them but excessive tracking a player that does not have a bounty can be considered Griefing, an Harrasment.\n\n5.  Do not Camp an area with intent to PvP.  You must keep transisting map to map(but not exploiting the transistion areas).\n\n6.  Never set a Trap, or go Hostile on a Spawn Point or Area Transistion.\n\n7.  No Pickpocketing in Arena(Script Enforced).\n\n8.  No Spamming the same Hostile Feat or Spell(including Meta-Magic).  You are allowed one use per round.  This means both parties must roll there there First Roll of the round before you may use the Same Feat or Spell again.  Meta-magic spells count towards same spell(such as IGM's an Meta-magic IGM's are treated as same spell, PvP Only).\n \n9.  No Spamming Pickpocket anytime!  Once per turn(60 seconds).  Dungeon Masters are notified of every theft made.  If you try to pickpocket more than once a minute you are subject to being punished(Script Enforced)."
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "PvP Rules"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "PvP_Rules_Journal"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 11,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "A Carpathian Nightmare Ruleset\n\n1.  A DM can enforce a new rule at anytime, written or verbal.  Do not argue or contest it.  If you have a problem with it, contact the forums an post your thoughts there.\n\n2.  A DM is always right and has the final judgement.  Do not contest the DM's in game.  They inside the game are always right.  To dispute an debate about the matter,  login to the forums an post there.\n\n3.  Any hostile actions are ONLY allowed in PVP areas, \n\n4.  NO harrassing/griefing players.  This means verbally especially.  \n\n5.  NO SETTING TRAPS IN NO PVP AREAS!  You will be punished severly by script if you do so.\n\n6.  NO farming or camping.  (This means NO herding or hording creatures together.\n\n7.  NO boss camping.  Kill the boss an port out of the area an start the entire area over(Script Enforced).\n\n8.  DM's will NOT replace any cash or items so do NOT ask or complain.  \n\n9.  Use the Carpathian Bank at your own risk.  No refunds!\n\n10.  NO abusing Bugs, Exploits, Haks, Cheats.....nothing!\n\n11.  Do not harrase players in Tell Channel.  \n  \n12.  NO swearing or spamming on shout.  Extreme foul language is prohibited regardless of how often in shout.  \n\n13.  NO spamming Area of Effect Spells as defined exclusively as Chain, Bullet, or Infinite Casting.\n\n14.  No disturbing someones bank chest when that chest is open. "
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Server Ruleset"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "Server_Rules_Journal"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 12,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "Special Thanks to all that did whatever to support me in this including DM's, Testers, an people that met me on other servers that have come to play my module :) \n\nHere is a list of people that contributed material to the NWN Community that made this module possible.\n\nAPS/ NWNX2 / Leto - Dragonsong, Papillion, an Avlis Team\nHigher Ground Legendary Levels & Simtools - FunkySwerve of Higher Ground\nOmega Forge - OmegaDM\nAll can be downloaded on the NWN IGN Vault.  Highly recommended, well tested.  Vote a 10 if you appreciate the work.\n\nLots of thanks to Elwoodini for hosting ACN v1 & v2.  \nThanks to Karyn & Qwen for hosting the Beta Module v2.\nThanks to Scarface for Subrace System & Socket System"
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Special Thanks"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "Special_Thanks_Journal"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 13,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "Blackstaff:  +6 Enhancement Bonus + On-Hit Dispell DC 26\n\nBigby Spells:  All except Interposing Hand Respect a new Discpline Check if you fail your SR check.  All Bigby spells have a duration of Caster Level / 4.\n\nAll Dispell Magic:\nInnateLevel: Lesser=3, Dispel=5, Greater=7, Mords=9 \nDispelLevel: Lesser=1, Dispel=2, Greater=3, Mords=4 \nCaster DC Formula = d20() + SpellFocuses + CasterLevel - (9-InnateLevel) \nEffect Creator DC Formula = 16 + SpellDefenseBonus + CasterLevel \n\nBy Spell, Caster gets: \nLesser = -15 levels \nDispel = -10 levels \nGreater = -5 levels \nMords = straight lvl v lvl dispel with a Breach twist of some sort we can hammer out later.\n\nEpic Spell - Epic Warding:  Damage Reduction 20/+20) up to 50 * (Caster Level / 2) Damage.  Lasts 1 round per level   \nFear:  All Fear spells except Barbarian Rage Fear has a maximum duration of d3 rounds.\n\nGreater Sanctuary:  This spell is disabled due to no saving throw\n\nGreater Restoration: does not heal anymore\n\nHarm - 10 points of damage per caster level (max. of 400 at level 40).  On successful will save, harm deals half this amount, but it cannot reduce the target's hit points to less than 1.  If used on an undead creature, harm acts like heal.\n\nHeal - 10 hit points per caster level (max. of 400 hit points at level 40)  Heal will not remove neg. levels or permanent ability score damage.  If used on an undead creature, heal acts like harm.\n\nIsaacs Greater Missile Storm: Up to 20 missiles, each doing 1d6 damage to each target in area.\n\nMass Heal: Same as 'Heal' but all members in the radius gain the effect.\n\nMestil's Acid Sheath & Elemental Shield do not stack.  Mestil's damage is 1d6 +  (Caster Level / 2)\n\nTime Stop:  Respects Reflex Save against all targets within a 30 meter range.  DC = Caster Level + Spell DC - d20.  Duration = 12 seconds(two rounds).\n\nTensers Transformation: HP exploit fixed.  Cannot Stack HP anymore.\n\nTrue Seeing:  Cast See Invisibility.  If you are 38 Level Caster Class, or 40 Ranks in Listen or Spot, you will be granted See Invisiblity, Ultravision, Listen & Spot Bonus equal to Caster Levels.\n\nTrue Strike: 12 seconds duration,\n\nWildshape(Druid/Shifter):  Equipped items mesh with your shifted form.  AC does not stack.  \n\nWord of Failth:  Respects Will Save Throws now."
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Spell Changes"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "Spells_Journal"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 14,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "Aoe spells will not stack!  You may only cast one AoE in a radius of 35 meters.\nAll AoE spells with a heartbeat script respects Full PvP, yet the module will remain globally a Party PvP settting.  The following is a list of them.\n\nAcid Fog\nBlade Barrier\nCloud of Bewilderment\nCloud Kill\nEntangle\nEvards Black Tentacles\nGrease\nIncendiary Cloud\nStinking Cloud\nStonehold\nStorm of Vengeance\nWall of Fire\nWeb"
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Spell Changes - AoE"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "Spells_Journal_AOE"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 15,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "August 2nd, 2008\n\nLetoscript features fixed.\nDeathlogging exploit fixed along with the persistant stats script(was broken for an unknown time).\n\nAugust 1st, 2008\n\nNew Character validation tweaked(item stripper was broken with new character files).\nName Validator fixed(again).\nMiscellaneous Shop Items Updated.  If more items still need charges adjusted post on forums please.\nImbue Arrow damage now grows according to how many Arcane Archer levels taken(Class Level * d6).\nDeath Arrow for Arcane Archer changed to DC = 20 + Arcane Archer Levels.\nOmega Forge NPC's all set to Plot.  No idea how they changed but there fixed now.\nRakshasa Staff taken out of the Gauntlet Shop.  Shifter items are not allowed for use with non-Shifters.  Error on my part, sorry.\nItem Deposit Box Room will now delete items left in the room after 10 minutes of no PC's in the area.\n\nJuly 24th, 2008\n\nModule OnClientEnter Script fixed.  Should gain the proper items now when logging in.\nPC Name Validator Updated.  Only restrictions now are against foul words in character names, or multiple instances of the same .BIC files.\nGP/XP Bank fixed.  Old accounts are archived.  A log of all accounts are posted on the forums with the keys to those accounts to identify them.  A DM will assist in refunding the GP/XP if your key is on that log on forums."
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Updates"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "Updates_Journal"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 16,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "3.0 Compliant UMD / Spellcraft script enabled.  \n\n\nSpellcraft DC = 25\nBase UMD Scroll DC = 20\nSpellcraft Penalty DC = 5 (If you fail a check by more than this amount you are penalized.\nUMD Penalty DC = 5\nDamage Penalty = 3d20\nRandom Effects on Failure: 1 of 25\n\nIf players have either a UMD or Spellcraft skill level\nof 5 or higher and they have both skills, they recieve\na synergy bonus.  This will result in the player (or you)\nseeing a skill level 2 higher than on the character sheet\nbecause BW does not account for this synergy even though\nit is a standard 3E rule.  The code then appropriately decides\nwhich skill to use (either craft or UMD) after this synergy\nadjustment is made."
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Use Magic Device(UMD)"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "UMD"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 17,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "Welcome to A Carpathian Nightmare!\n\nThe server was originally built, programmed and created by Milliorn. Maps where built with help from Sarah Milliorn. Since then, due to changes in circumstances, it has been taken over by Dorrian and Shimmer. They are working on the continued development of the module.\n\n\n170+ areas to explore.  Mainly Hak n' Slash.  Has quest areas for those that want to do something other than slaughter pc's or npc's.\n\n60+ Subraces\nLegendary Levels(60)\nGP XP Item Bank\nPC Rebuilder\nUnique Market system\nParty Loot Splitter an Destroyer Tool\nOmega Forge\nBounty System an Jail\nUnique Boss Encounters\nSpecial XP Reward for Rogues with LockPicketing Boss Treasure\nBindstones an Party Portal\nMass Dislike Wand an Emote Wand\nTotal PC Appearance Modifier\nAlignment Changer for No Alignment Restrictions\nFull Crafting Shop \nPk Score System\nDynamic Arena(No DM Required)\nSequener Wands(Fast Buffing)\nSimtools\nMax Hit Points\nCharacter Deleter\nUnique Guild System"
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "Welcome to ACN v2"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 0
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "Welcome_Journal"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 18,
+        "Comment": {
+          "type": "cexostring",
+          "value": ""
+        },
+        "EntryList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "End": {
+                "type": "word",
+                "value": 0
+              },
+              "ID": {
+                "type": "dword",
+                "value": 1
+              },
+              "Text": {
+                "type": "cexolocstring",
+                "value": {
+                  "0": "Bonus XP/GP reward for the dealing the killing blow to the creature is 10%.\n XP & GP bonus per player in the party is 10% per player.\nDistance between each party member and the dead creature to be included for XP reward is 40.0 meters.\nParty level gap for minimal XP is  10. \nXP pentalty for each summon/familiar/henchman within the party  is 2%.\nXP to be divided between all PC's in the party within the specified distance of 40.0 meters.\nMinimum XP possible for all PC's  is 1 XP\nLegendary Levels are not calculated in this.\nNo Multiclass Penalty 2da edit in effect.\n\nLEVEL_1_MAX_XP = 100\nLEVEL_2_MAX_XP = 125\nLEVEL_3_MAX_XP = 150\nLEVEL_4_MAX_XP = 175\nLEVEL_5_MAX_XP = 200\nLEVEL_6_MAX_XP = 220\nLEVEL_7_MAX_XP = 240\nLEVEL_8_MAX_XP = 260\nLEVEL_9_MAX_XP = 280\nLEVEL_10_MAX_XP = 300\nLEVEL_11_MAX_XP = 315\nLEVEL_12_MAX_XP = 330\nLEVEL_13_MAX_XP = 345\nLEVEL_14_MAX_XP = 360\nLEVEL_15_MAX_XP = 375\nLEVEL_16_MAX_XP = 390\nLEVEL_17_MAX_XP = 400\nLEVEL_18_MAX_XP = 410\nLEVEL_19_MAX_XP = 420\nLEVEL_20_MAX_XP = 430\nLEVEL_21_MAX_XP = 440\nLEVEL_22_MAX_XP = 450\nLEVEL_23_MAX_XP = 460\nLEVEL_24_MAX_XP = 470\nLEVEL_25_MAX_XP = 480\nLEVEL_26_MAX_XP = 490\nLEVEL_27_MAX_XP = 500\nLEVEL_28_MAX_XP = 510\nLEVEL_29_MAX_XP = 520\nLEVEL_30_MAX_XP = 530\nLEVEL_31_MAX_XP = 540\nLEVEL_32_MAX_XP = 550\nLEVEL_33_MAX_XP = 560\nLEVEL_34_MAX_XP = 570\nLEVEL_35_MAX_XP = 580\nLEVEL_36_MAX_XP = 590\nLEVEL_37_MAX_XP = 600\nLEVEL_38_MAX_XP = 700\nLEVEL_39_MAX_XP = 800\nLEVEL_40_MAX_XP = 1000"
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "type": "cexolocstring",
+          "value": {
+            "0": "XP Chart"
+          }
+        },
+        "Picture": {
+          "type": "word",
+          "value": 65535
+        },
+        "Priority": {
+          "type": "dword",
+          "value": 4
+        },
+        "Tag": {
+          "type": "cexostring",
+          "value": "XP_Table_Journal"
+        },
+        "XP": {
+          "type": "dword",
+          "value": 0
+        }
+      }
+    ]
+  }
+}
