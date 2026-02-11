@@ -1,20 +1,15 @@
 # =========================
-# Nasher working directories
+# Nasher working directories (always ignore)
 # =========================
 .nasher/
 
-# Nasher cache output
-.nasher/cache/
-
 # =========================
-# Built artifacts (DO NOT version)
+# Build / packaged artifacts (never commit)
 # =========================
 *.mod
 *.erf
-
-# =========================
-# Script compiler artifacts
-# =========================
+*.hak
+*.tlk
 *.ndb
 
 # =========================
@@ -25,8 +20,5 @@ Thumbs.db
 *~
 *.swp
 *.swo
-
-# =========================
-# Local environment files
-# =========================
-.nasher/user.cfg
+.vscode/
+.idea/
