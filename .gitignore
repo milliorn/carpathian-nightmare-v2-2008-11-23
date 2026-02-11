@@ -1,1 +1,32 @@
-A_Carpathian_Nightmare.mod
+# =========================
+# Nasher working directories
+# =========================
+.nasher/
+
+# Nasher cache output
+.nasher/cache/
+
+# =========================
+# Built artifacts (DO NOT version)
+# =========================
+*.mod
+*.erf
+
+# =========================
+# Script compiler artifacts
+# =========================
+*.ndb
+
+# =========================
+# OS / editor junk
+# =========================
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# =========================
+# Local environment files
+# =========================
+.nasher/user.cfg
