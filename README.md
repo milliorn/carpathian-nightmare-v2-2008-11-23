@@ -12,7 +12,7 @@ The contents reflect the original module state exactly as last compiled in the N
 
 ---
 
-## No Recompilation / No Modification Policy
+## Repository Intent
 
 Some scripts in this module:
 
