@@ -116,26 +116,6 @@ Notes:
     └── unknown/
 ```
 
-Most non-script resources are stored as `*.EXT.json` (example: `module.ifo.json`).
-These are Nasher-generated JSON conversions of binary GFF resources for diffability.
-
----
-
-## Git Hygiene
-
-This repository ignores:
-
-- `.nasher/` (cache, tmp, working dirs)
-- `*.mod`
-- `*.erf`
-- `*.hak`
-- `*.ndb`
-- OS/editor artifacts
-
-Any generated `.mod` file is treated as a build artifact and is not versioned.
-
----
-
 ## Attribution / License
 
 This repository represents an unpacked archival view of a community-created NWN1 module.
