@@ -58,7 +58,6 @@ It does not prioritize:
 
 - Neverwinter Nights (NWN1 / NWN:EE)
 - Nasher installed and available on your PATH
-- Git (for version control)
 
 ---
 
@@ -66,7 +65,7 @@ It does not prioritize:
 
 This repository does NOT include the original `.mod` file.
 
-To generate a module file from this archive (best-effort, archival attempt only):
+To generate a module file from this archive:
 
 ```fish
 nasher pack default
@@ -118,13 +117,13 @@ Notes:
 
 ## Attribution / License
 
-This repository represents an unpacked archival view of a community-created NWN1 module.
+This repository represents an unpacked archival view of a NWN1 module.
 All contents of this repository must retain proper attribution.
 
-If any portion of this repository — including scripts, resources, structure, or derivative adaptations — is used, redistributed, modified, or incorporated into another project, visible credit must be given to the original repository and its author.
+If any portion of this repository including scripts, resources, structure, or derivative adaptations is used, redistributed, modified, or incorporated into another project, visible credit must be given to the original repository and its author.
 
 Removal of attribution, misrepresentation of authorship, or presentation of this work as wholly original is not permitted.
 
-This repository contains derivative material based on BioWare intellectual property. Any use of these materials must also comply with the Neverwinter Nights EULA and applicable copyright law.
+Any use of these materials must also comply with the Neverwinter Nights EULA and applicable copyright law.
 
 No warranty is provided. This archive is distributed as-is, without liability.
